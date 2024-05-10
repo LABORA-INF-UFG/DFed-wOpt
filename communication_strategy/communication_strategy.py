@@ -1,7 +1,5 @@
 import numpy as np
 
-# np.random.seed(1)
-
 
 class Communication_Strategy:
 

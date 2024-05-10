@@ -264,7 +264,6 @@ if __name__ == "__main__":
             load_client_data_constructor=False)
 
     print(f"INÍCIO")
-
     fl.strategy.print_total()
     print("clients_number_data_samples")
     print(fl.clients_number_data_samples)

@@ -30,7 +30,7 @@ class Model:
 
             tf.keras.layers.Flatten(),
             tf.keras.layers.Dense(128, activation='relu'),
-            tf.keras.layers.Dense(20, activation='softmax')
+            tf.keras.layers.Dense(10, activation='softmax')
         ])
 
         model.compile(optimizer=tf.keras.optimizers.Adam(),
